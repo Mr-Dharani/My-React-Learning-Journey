@@ -1,0 +1,63 @@
+.body{
+    background-color: rgb(192, 213, 206);
+    text-align: center;
+}
+
+.body header{
+    text-align: center;
+    color: #272249;
+    font-size: 30px;
+}
+nav{
+    nav{
+    text-align:right;
+    margin:20px;
+}
+
+nav a{
+    text-decoration:none;
+    margin-left:20px;
+    color:#272249;
+    font-weight:bold;
+}
+}
+
+.body h3{
+    color: blueviolet;
+    background-color: aliceblue;
+    font-size: 25px;
+}
+
+.body p{
+    font-size: 20px;
+}
+ul{
+    list-style:none;
+    padding:0;
+
+}
+li{
+    margin:8px 0;
+}
+.profile{
+
+width:180px;
+
+height:180px;
+
+border-radius:50%;
+
+border:5px solid white;
+
+}
+footer{
+
+margin-top:40px;
+
+padding:20px;
+
+background:#272249;
+
+color:white;
+
+}
