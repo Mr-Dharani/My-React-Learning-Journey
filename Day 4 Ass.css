@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(250, 241, 229);
+}
+.header{
+    text-align: center;
+    
+    color: rgb(4, 4, 49);
+    padding: 10px;
+}
+.header h1{
+    font-size: 40px;
+}
+.header nav{
+    text-align: right;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    height:200px;
+    width:200px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.image img{
+    height:200px;
+    width:200px;
+    object-fit: contain;
+
+}
+.hero p{
+    font-size: 20px;
+    padding: 5px;
+}
+.button{
+    text-align: center;
+    
+}
+
+#resume{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    border: solid 2px;
+        border-radius: 15px;
+        padding: 5px;
+        font-size: 20px;
+
+}
+#contact{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    border: solid 2px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20px;
+}
+button:hover{
+
+background:blue;
+
+color:white;
+
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(218, 255, 210);
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    
+    font-size: 20px;
+}
+.projects{
+    display: grid;
+    gap: 30px;
+    grid-template-columns:1fr 1fr;
+    justify-content: center;
+    padding-left: 200px;
+    font-size: 20px;
+    
+}
+.a{
+    height:200px;
+    width:400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+.b{
+    height:200px;
+    width:400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+.c{
+    height:200px;
+    width:400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+.d{
+    height:200px;
+    width:400px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+.links{
+justify-content: center;
+text-align: center;
+padding-top:20px ;
+font-size: 20px;
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+}
