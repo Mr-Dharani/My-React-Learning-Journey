@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px;
+}
+
+.profile {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+}
+
+li {
+    list-style-position: inside;
+    margin: 8px;
+}
+
+.dark {
+    background-color: #111;
+    color: white;
+}
+
+.dark .profile {
+    background-color: #222;
+}
